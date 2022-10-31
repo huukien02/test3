@@ -1,0 +1,79 @@
+.form_reset {
+  background: #e5e5e5;
+  padding-left: 200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  .form {
+    width: 1176px;
+    height: 366px;
+
+    background: #ffffff;
+  }
+  h1 {
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #b2d235;
+    text-align: center;
+  }
+  p {
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #505353;
+    text-align: center;
+  }
+  span {
+    margin-left: 350px;
+  }
+  input {
+    box-sizing: border-box;
+    width: 462px;
+    height: 60px;
+
+    margin-left: 350px;
+
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    outline: none;
+  }
+  button {
+    width: 220px;
+    height: 42px;
+
+    margin-top: 50px;
+
+    background: #b2d235;
+    box-shadow: inset 0px 1.5px 2px #6f8710;
+    border-radius: 22px;
+    border: none;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    border: 0.3px solid #ffffff;
+    margin-left: 480px;
+    cursor: pointer;
+  }
+}
