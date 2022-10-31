@@ -1,0 +1,913 @@
+.List_Courses {
+  display: flex;
+  margin-top: 100px;
+  gap: 100px;
+  margin-left: 100px;
+
+  .JS {
+    width: 370px;
+    height: 470px;
+    margin-left: 0px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    .logo {
+      position: relative;
+      top: -15px;
+      width: 370px;
+      height: 215px;
+
+      background: #3f6185;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0px 0px;
+
+      img {
+        width: 226px;
+        height: 125px;
+        margin-left: 60px;
+        margin-top: 30px;
+      }
+    }
+    .title {
+      h1 {
+        width: 274px;
+        height: 37px;
+        font-family: "UTM BryantLG";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+
+        margin-left: 40px;
+        /* identical to box height */
+
+        letter-spacing: -0.05em;
+
+        color: #b2d235;
+      }
+      p {
+        width: 294px;
+        height: 80px;
+        margin-left: 30px;
+
+        font-family: "UTM BryantLG";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: -0.05em;
+
+        color: #505353;
+      }
+      button {
+        width: 274px;
+        height: 47px;
+        margin-left: 40px;
+
+        background: #b2d235;
+        box-shadow: inset 0px 1.5px 2px #6f8710;
+        border-radius: 22px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border: none;
+      }
+    }
+  }
+}
+
+.OTHER_COURSES {
+  width: 485px;
+  height: 98px;
+
+  margin-left: 637px;
+
+  font-family: "UTM BryantLG";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 98px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #11114e;
+}
+
+.List_Other {
+  display: flex;
+  margin-top: 100px;
+  gap: 100px;
+  margin-left: 100px;
+
+  .CSS {
+    width: 370px;
+    height: 395px;
+    margin-left: 0px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    .logo {
+      position: relative;
+      top: -68px;
+      width: 370px;
+      height: 194px;
+
+      background: #24abe2;
+      border-radius: 15px 15px 0px 0px;
+
+      h1 {
+        width: 198px;
+        height: 123px;
+        margin-left: 70px;
+
+        font-family: "UTM BryantLG";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 123px;
+        /* identical to box height */
+
+        color: #ffffff;
+      }
+    }
+    .title {
+      position: relative;
+      top: -68px;
+      h1 {
+        width: 155px;
+        height: 37px;
+        margin-left: 100px;
+
+        font-family: "UTM BryantLG";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        /* identical to box height */
+
+        letter-spacing: -0.05em;
+
+        color: #b2d235;
+      }
+      p {
+        width: 294px;
+        height: 42px;
+        margin-left: 30px;
+
+        font-family: "UTM BryantLG";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: -0.05em;
+
+        color: #505353;
+      }
+      button {
+        width: 274px;
+        height: 47px;
+        margin-left: 40px;
+
+        background: #b2d235;
+        box-shadow: inset 0px 1.5px 2px #6f8710;
+        border-radius: 22px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border: none;
+      }
+    }
+  }
+}
+
+.VIEW_COURSES {
+  display: flex;
+  span {
+    width: 466px;
+    height: 49px;
+    margin-left: 550px;
+    margin-top: 70px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    color: #90ab26;
+
+    i {
+      width: 47.09px;
+      height: 26.08px;
+    }
+  }
+}
+
+.Question {
+  padding-top: 50px;
+  width: 100%;
+  height: 633px;
+
+  background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/308195766_1273042070196329_7750926585128346099_n.png?stp=dst-png_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=bsO4Z5Ko7zMAX_DPeOG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSddIHfgvShDXbnccRx_l1e7ygSZWu7Z3H_NUhBYjRYdw&oe=636C4460");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  h1 {
+    width: 560px;
+    height: 102px;
+    margin-top: 50px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 86px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+  ul {
+    width: 452px;
+    height: 25px;
+    left: 48px;
+    top: 197px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #ffffff;
+
+    li {
+      list-style-type: none;
+      padding-top: 20px;
+    }
+  }
+
+  img {
+    width: 792px;
+    height: 544px;
+    margin-left: 600px;
+    position: relative;
+    top: -200px;
+  }
+}
+
+.Feedback {
+  margin-left: 150px;
+  .title {
+    width: 334px;
+    height: 98px;
+    margin-left: 500px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #11114e;
+  }
+  p {
+    width: 705px;
+    height: 71px;
+    margin-left: 330px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #505353;
+  }
+  .list_box {
+    display: flex;
+    gap: 100px;
+    .box {
+      margin-left: 0px;
+      .message {
+        padding-top: 30px;
+        padding-left: 10px;
+        box-sizing: border-box;
+
+        width: 570px;
+        height: 163.47px;
+
+        background: #ffffff;
+        border: 0.5px solid #e2e2e2;
+        border-radius: 10px;
+
+        span {
+          // position: absolute;
+          // width: 5px;
+          // height: 108px;
+          // left: 141px;
+          // top: 3163px;
+
+          // background: #d9dadc;
+        }
+
+        small {
+          width: 497px;
+          height: 89px;
+          left: 25px;
+          top: 30px;
+
+          font-family: "UTM BryantLG";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: -0.05em;
+
+          color: #000000;
+        }
+      }
+      .author {
+        img {
+          width: 45px;
+          height: 45px;
+          margin-top: 20px;
+        }
+        .name {
+          width: 177px;
+          height: 23px;
+
+          position: relative;
+          left: -275px;
+          top: -70px;
+
+          font-family: "UTM BryantLG";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 25px;
+
+          color: #11114e;
+        }
+        .language {
+          width: 59px;
+          height: 19px;
+
+          position: relative;
+          left: -279px;
+          top: -88px;
+
+          font-family: "UTM BryantLG";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+
+          color: #505353;
+        }
+        .star {
+          width: 14px;
+          height: 16px;
+
+          position: relative;
+          left: -270px;
+          top: -90px;
+
+          font-family: "FontAwesome";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          /* identical to box height */
+
+          color: #f2c54f;
+
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+.Start_Learn {
+  width: 100%;
+  height: 500px;
+
+  padding-top: 100px;
+
+  background: #b2d235;
+
+  .title {
+    width: 705px;
+    height: 158px;
+
+    margin-left: 380px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+  button {
+    width: 377px;
+    height: 70px;
+
+    margin-left: 550px;
+
+    background: #ffffff;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    border: none;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #90ab26;
+  }
+}
+
+.Statistic {
+  h1 {
+    width: 279px;
+    height: 98px;
+
+    margin-left: 600px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #11114e;
+  }
+  ul {
+    display: flex;
+
+    // width: 200px;
+    // height: 74px;
+
+    margin-left: 140px;
+    gap: 320px;
+
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 74px;
+    /* identical to box height */
+
+    // letter-spacing: -0.05em;
+
+    color: #505353;
+
+    li {
+      list-style-type: none;
+      font-family: "UTM BryantLG";
+    }
+  }
+}
+
+@media only screen and (min-width: 439px) and (max-width: 768px) {
+  .List_Courses {
+    display: block;
+    margin-left: 0;
+    // border: 1px solid #000;
+    padding-left: 0;
+
+    .JS {
+      // border: 1px solid #000;
+      width: 557px;
+      height: 158px;
+
+      position: relative;
+      left: 95px;
+
+      display: flex;
+      margin-top: 20px;
+      .logo {
+        width: 200px;
+        height: 158px;
+
+        margin-top: 15px;
+        border-radius: 20px;
+
+        img {
+          width: 145px;
+          height: 92px;
+          margin-left: 30px;
+        }
+      }
+      .title {
+        h1 {
+          // border: 1px solid #000;
+          width: 184px;
+          font-size: 14px;
+          font-family: "UTM BryantLG";
+          font-style: normal;
+          font-weight: 700;
+        }
+        p {
+          // border: 1px solid #000;
+          width: 294px;
+          height: 80px;
+          margin-left: 30px;
+
+          font-family: "UTM BryantLG";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          /* or 143% */
+
+          text-align: center;
+          letter-spacing: -0.05em;
+
+          color: #505353;
+        }
+        button {
+          width: 200px;
+          height: 25px;
+          margin-left: 70px;
+          position: relative;
+          top: -33px;
+          font-size: 14px;
+          line-height: 8px;
+        }
+      }
+    }
+  }
+
+  .OTHER_COURSES {
+    margin-left: 150px;
+    // border: 1px solid #000;
+    text-align: center;
+  }
+
+  .List_Other {
+    display: block;
+    width: 650px;
+    // border: 1px solid #000;
+
+    .CSS {
+      // border: 1px solid #000;
+      display: flex;
+      width: 557px;
+      height: 158px;
+      margin-left: 0px;
+      // position: relative;
+      // left: -92px;
+
+      margin-top: 20px;
+
+      .logo {
+        // border: 1px solid #000;
+        width: 200px;
+        height: 158px;
+        top: 0;
+        border-radius: 20px;
+
+        h1 {
+          // border: 1px solid #000;
+          width: 100px;
+          height: 10px;
+          margin-left: 53px;
+          font-size: 45px;
+          position: relative;
+          top: -15px;
+        }
+      }
+      .title {
+        h1 {
+          // border: 1px solid #000;
+          width: 155px;
+          height: 37px;
+          margin-left: 100px;
+          margin-top: 68px;
+          font-size: 20px;
+        }
+        p {
+          // border: 1px solid #000;
+        }
+        button {
+          width: 254px;
+          height: 37px;
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+
+  .VIEW_COURSES {
+    // border: 1px solid #000;
+    span {
+      // border: 1px solid #000;
+      margin-left: 190px;
+    }
+  }
+
+  .Question {
+    width: 755px;
+    // border: 1px solid #000;
+
+    h1 {
+      // border: 1px solid #000;
+      margin-top: 50px;
+      font-size: 40px;
+      position: relative;
+      left: -120px;
+      top: 40px;
+
+      color: #ffffff;
+    }
+    ul {
+      // border: 1px solid #000;
+      width: 252px;
+      height: 25px;
+
+      /* identical to box height */
+
+      letter-spacing: -0.05em;
+
+      color: #ffffff;
+
+      li {
+        // border: 1px solid #000;
+        list-style-type: none;
+        font-size: 13px;
+      }
+    }
+
+    img {
+      // border: 1px solid #000;
+      width: 310px;
+      height: 244px;
+      margin-left: 388px;
+      margin-top: 70px;
+    }
+  }
+
+  .Feedback {
+    // border: 1px solid #000;
+    margin-top: 50px;
+    width: 400px;
+    .title {
+      // border: 1px solid #000;
+      position: relative;
+      left: -450px;
+      text-align: center;
+      font-size: 53px;
+    }
+
+    p {
+      // border: 1px solid #000;
+      position: relative;
+      width: 500px;
+      left: -350px;
+      font-size: 20px;
+    }
+
+    .list_box {
+      // border: 1px solid #000;
+      display: block;
+      margin-left: 100px;
+
+      .box {
+        // border: 1px solid #000;
+        position: relative;
+        left: -100px;
+
+        .message {
+          // border: 1px solid #000;
+          width: 470px;
+          height: 143.47px;
+        }
+      }
+    }
+  }
+
+  .Start_Learn {
+    // border: 1px solid #000;
+    width: 752px;
+    // height: 300px;
+
+    .title {
+      font-size: 35px;
+      width: 705px;
+      height: 158px;
+      // border: 1px solid #000;
+
+      margin-left: 10px;
+    }
+
+    button {
+      // display: none;
+      width: 377px;
+      height: 70px;
+
+      margin-left: 190px;
+    }
+  }
+
+  .Statistic {
+    // border: 1px solid #000;
+    h1 {
+      // border: 1px solid #000;
+      font-size: 53px;
+      margin-left: 230px;
+      text-align: center;
+    }
+    ul {
+      // border: 1px solid #000;
+      margin-left: 0;
+      gap: 140px;
+      font-size: 30px;
+      li {
+        padding-left: 30px;
+        // border: 1px solid #000;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 439px) {
+  .List_Courses {
+    display: block;
+    // border: 1px solid #000;
+    margin-top: 300px;
+
+    position: relative;
+    left: -65px;
+
+    .JS {
+      margin-top: 40px;
+
+      // border: 1px solid #000;
+    }
+  }
+
+  .OTHER_COURSES {
+    margin-left: 50px;
+    // border: 1px solid #000;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+  }
+
+  .List_Other {
+    display: block;
+    // border: 1px solid #000;
+
+    position: relative;
+    left: -65px;
+
+    .CSS {
+      margin-top: 100px;
+      height: 345px;
+    }
+  }
+
+  .VIEW_COURSES {
+    span {
+      // border: 1px solid #000;
+      margin-left: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+
+  .Question {
+    width: 430px;
+    height: 750px;
+
+    h1 {
+      // border: 1px solid #000;
+      font-size: 30px;
+      width: 300px;
+      margin-left: 50px;
+    }
+    ul {
+      width: 352px;
+      // border: 1px solid #000;
+      li {
+        // border: 1px solid #000;
+        font-size: 17px;
+      }
+    }
+    img {
+      width: 292px;
+      height: 244px;
+      margin-left: 70px;
+      margin-top: 400px;
+    }
+  }
+
+  .Feedback {
+    // border: 1px solid #000;
+    margin-left: 0px;
+
+    .title {
+      margin-left: 50px;
+      // border: 1px solid #000;
+      font-size: 34px;
+      text-align: center;
+    }
+    p {
+      width: 400px;
+      height: 71px;
+      margin-left: 20px;
+    }
+    .list_box {
+      display: block;
+      // border: 1px solid #000;
+      gap: 50px;
+      margin-top: 50px;
+
+      .box {
+        .message {
+          width: 430px;
+          // border: 1px solid #000;
+        }
+      }
+    }
+  }
+
+  .Start_Learn {
+    width: 435px;
+    height: 400px;
+    padding-top: 50px;
+
+    .title {
+      // border: 1px solid #000;
+      margin-left: 0px;
+      font-size: 30px;
+      width: 400px;
+    }
+    button {
+      margin-left: 20px;
+    }
+  }
+
+  .Statistic {
+    h1 {
+      margin-left: 70px;
+      font-size: 35px;
+      text-align: center;
+      // border: 1px solid #000;
+    }
+    ul {
+      // border: 1px solid #000;
+      margin-left: 0;
+      display: block;
+      font-size: 30px;
+      padding-left: 0px;
+      li {
+        padding-left: 0px;
+        // border: 1px solid #000;
+        text-align: center;
+      }
+    }
+  }
+}
